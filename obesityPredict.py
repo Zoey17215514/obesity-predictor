@@ -13,9 +13,6 @@ from sklearn.svm import SVC # Import SVC
 from sklearn.inspection import permutation_importance # Import permutation_importance
 # import json # No longer need json
 
-import sklearn
-print(sklearn.__version__)
-
 # Load the combined models and K-Fold results
 combined_data = {}
 loaded_models = None # Initialize loaded_models
