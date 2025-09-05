@@ -1,3 +1,5 @@
+!pip install scikit-learn==1.6.1
+
 import streamlit as st
 from joblib import load
 import numpy as np
